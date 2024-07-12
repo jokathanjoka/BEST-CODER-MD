@@ -10,12 +10,12 @@ const yts1 = require("youtube-yts");
 zokou({
   nomCom: "play",
   categorie: "Search",
-  reaction: "🎧"
+  reaction: "🇹🇿"
 }, async (origineMessage, zk, commandeOptions) => {
   const { ms, repondre, arg } = commandeOptions;
      
   if (!arg[0]) {
-    repondre("wrong!!! Ie. _Play hozambe by Beltah ft shifura._");
+    repondre("wrong!!! Ie. _Play hozambe by joel tech._");
     return;
   }
 
@@ -29,14 +29,14 @@ zokou({
           
        let infoMess = {
           image: {url : videos[0]. thumbnail},
-         caption : `\n> 𝐁𝐄𝐋𝐓𝐀𝐇-𝐌𝐃 𝐕𝟒.𝟎.𝟎 𝐋𝐀𝐓𝐄𝐒𝐓\n\n*song name :* _${videos[0].title}_
+         caption : `\n> powered by joel kang'oma\n\n*song name :* _${videos[0].title}_
 
 *Time :* _${videos[0].timestamp}_
 
 *Url :* _${videos[0].url}_
 
 
-> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐁𝐄𝐋𝐓𝐀𝐇 𝐓𝐄𝐂𝐇`
+> best coder md`
        }
 
       
@@ -89,7 +89,7 @@ zokou({
   const { arg, ms, repondre } = commandeOptions;
 
   if (!arg[0]) {
-    repondre("insert video name Ie. _video hozambee by Beltah ft shifura._");
+    repondre("insert video name Ie. _video hozambee by joel kang'oma._");
     return;
   }
 
@@ -103,11 +103,11 @@ zokou({
 
       let InfoMess = {
         image: { url: videos[0].thumbnail },
-        caption: `> 𝐁𝐄𝐋𝐓𝐀𝐇-𝐌𝐃 𝐕𝟒.𝟎.𝟎 𝐋𝐀𝐓𝐄𝐒𝐓\n\n*Video name :* _${Element.title}_
+        caption: `> powered by joel kang'oma\n\n*Video name :* _${Element.title}_
 *Time :* _${Element.timestamp}_
 *Url :* _${Element.url}_
-*Saver* : *Beltah dowloads*
-\n\n\n> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐁𝐄𝐋𝐓𝐀𝐇 𝐓𝐄𝐂𝐇`
+*Saver* : *best coder md dowloads*
+\n\n\n> best coder md `
       };
 
       zk.sendMessage(origineMessage, InfoMess, { quoted: ms });
@@ -128,7 +128,7 @@ zokou({
 
       fileStream.on('finish', () => {
         // Envoi du fichier vidéo en utilisant l'URL du fichier local
-        zk.sendMessage(origineMessage, { video: { url :"./video.mp4"} , caption: "> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐁𝐄𝐋𝐓𝐀𝐇 𝐓𝐄𝐂𝐇", gifPlayback: false }, { quoted: ms });
+        zk.sendMessage(origineMessage, { video: { url :"./video.mp4"} , caption: "> powered by joel kang'oma", gifPlayback: false }, { quoted: ms });
       });
 
       fileStream.on('error', (error) => {
