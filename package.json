@@ -1,8 +1,8 @@
 {
-  "name": "beltah-md",
+  "name": "BEST CODER MD",
   "version": "1.0.0",
   "description": "",
-  "main": "beltah.js",
+  "main": "joel tech",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "s": "node beltah.js",
