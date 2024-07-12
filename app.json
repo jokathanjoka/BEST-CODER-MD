@@ -1,5 +1,5 @@
 {
-  "name":"BEST CODER XMD",
+  "name":"BEST CODER MD",
   "description":"Deploy now your BEST CODER MD bot, BEST CODER-MD was developed by joel.Make sure you fill all valuables accordingly. ",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/56dfb94e0f8b32fab33a7.jpg",
@@ -49,7 +49,7 @@
     "PUBLIC_MODE":
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
-      "value":"mo",
+      "value":"no",
       "required":false
     }
 	,
