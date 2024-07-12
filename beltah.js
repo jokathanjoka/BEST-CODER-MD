@@ -167,7 +167,7 @@ setTimeout(() => {
             
             var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t [][]...{Beltah-Md}...[][]");
+            console.log("\t [][]...{best coder md}...[][]");
             console.log("=========== written message===========");
             if (verifGroupe) {
                 console.log("message provenant du groupe : " + nomGroupe);
@@ -430,7 +430,7 @@ function mybotpic() {
                                    // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
                                     const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
                                     var sticker = new Sticker(gifLink, {
-                                        pack: 'Beltah-Md',
+                                        pack: 'powered by joel kang'oma',
                                         author: conf.OWNER_NAME,
                                         type: StickerTypes.FULL,
                                         categories: ['🤩', '🎉'],
@@ -471,7 +471,7 @@ function mybotpic() {
                             let warn = await getWarnCountByJID(auteurMessage) ; 
                             let warnlimit = conf.WARN_COUNT
                          if ( warn >= warnlimit) { 
-                          var kikmsg = `𝐁𝐄𝐋𝐓𝐀𝐇-𝐌𝐃 𝐕𝟒.𝟎.𝟎 detected a link!! , you will be remove because of reaching warn-limit`;
+                          var kikmsg = `BEST CODER MD detected a link!! , you will be remove because of reaching warn-limit`;
                             
                              await zk.sendMessage(origineMessage, { text: kikmsg , mentions: [auteurMessage] }, { quoted: ms }) ;
 
@@ -482,7 +482,7 @@ function mybotpic() {
 
                             } else {
                                 var rest = warnlimit - warn ;
-                              var  msg = `𝐁𝐄𝐋𝐓𝐀𝐇-𝐌𝐃 𝐕𝟒.𝟎.𝟎 detected a link!! , your warn_count was upgrade ;\n rest : ${rest} `;
+                              var  msg = `BEST CODER MD detected a link!! , your warn_count was upgrade ;\n rest : ${rest} `;
 
                               await ajouterUtilisateurAvecWarnCount(auteurMessage)
 
@@ -524,7 +524,7 @@ function mybotpic() {
                 id: ms.key.id,
                 participant: auteurMessage
             };
-            var txt = "𝐁𝐄𝐋𝐓𝐀𝐇-𝐌𝐃 𝐕𝟒.𝟎.𝟎 detected a weak bot!!, \n";
+            var txt = "BEST CODER MD  detected a weak bot!!, \n";
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
@@ -773,7 +773,7 @@ zk.ev.on('group-participants.update', async (group) => {
 
                  
                 },{
-                    timezone: "Africa/Nairobi"
+                    timezone: "Africa/Tanzania"
                   });
               }
         
@@ -809,13 +809,13 @@ zk.ev.on('group-participants.update', async (group) => {
                 console.log("ℹ️ Beltah is connecting...");
             }
             else if (connection === 'open') {
-                console.log("✅ Beltah Connected to WhatsApp! ☺️");
+                console.log("✅ Best coder md to WhatsApp! ☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("Beltah Md is Online 🕸\n\n");
+                console.log("best coder Md is Online 🕸\n\n");
                 //chargement des commandes 
                 console.log("Loading Beltah Commands ...\n");
                 fs.readdirSync(__dirname + "/beltah").forEach((fichier) => {
@@ -848,17 +848,16 @@ zk.ev.on('group-participants.update', async (group) => {
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
 
-                let cmsg =`❒ ❒⁠ ⁠⁠⁠⁠𝐁𝐄𝐋𝐓𝐀𝐇-𝐌𝐃 𝐈𝐒 𝐎𝐍𝐋𝐈𝐍𝐄 ❒ ⁠⁠⁠⁠❒⁠⁠⁠⁠
+                let cmsg =`BEST CODER MD IS ONLINE 
 ╭─────────❒⁠⁠⁠⁠              
 > Prefix   : [ ${prefixe} ]   
 > Mode   : ${md}
 > Plugins  : ${evt.cm.length} 
 > Ram   : 129.99GB
-> Platform : Chrome linux
+> Platform : chrome linux
 > Owner  : Beltah Ke
-╰─────────❒${readmore}
- 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐁𝐄𝐋𝐓𝐀𝐇 𝐓𝐄𝐂𝐇
-> Type [  ${prefixe}  Channel ] and follow our official *BELTAH-MD* channel . To get latest updates on this BOT.
+╰─────────❒
+> powered by joel kang'oma 
  ⁠⁠╰─────────────────❒`;
 
                 await zk.sendMessage(zk.user.id, { text: cmsg });
