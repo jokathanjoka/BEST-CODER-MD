@@ -14,12 +14,12 @@ const{repondre,ms,dev,superUser}=com;
 
   if(!superUser)
   {
-    return repondre("This command is for owner only");
+    return repondre("This command is for best coder md owner only");
   }
 
   const {exec}=require("child_process")
 
-    repondre("> BELTAH-MD bot Restarting ⏳");
+    repondre("> BEST CODER-MD bot Restarting ⏳");
 
   exec("pm2 restart all");
   
