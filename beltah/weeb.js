@@ -7,7 +7,7 @@ const { writeFile } = require('fs/promises')
 zokou({
   nomCom: "waifu",
   categorie: "Weeb",
-  reaction: "😏"
+  reaction: "🕷️"
 },
 async (origineMessage, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
@@ -31,7 +31,7 @@ async (origineMessage, zk, commandeOptions) => {
 zokou({
   nomCom: "neko",
   categorie: "Weeb",
-  reaction: "😺"
+  reaction: "🕷️"
 },
 async (origineMessage, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
@@ -54,7 +54,7 @@ async (origineMessage, zk, commandeOptions) => {
 zokou({
   nomCom: "shinobu",
   categorie: "Weeb",
-  reaction: "🦋"
+  reaction: "🕷️"
 },
 async (origineMessage, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
@@ -77,7 +77,7 @@ async (origineMessage, zk, commandeOptions) => {
 zokou({
   nomCom: "megumin",
   categorie: "Weeb",
-  reaction: "💥"
+  reaction: "🍆"
 },
 async (origineMessage, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
@@ -101,7 +101,7 @@ async (origineMessage, zk, commandeOptions) => {
 zokou({
   nomCom: "cosplay",
   categorie: "Weeb",
-  reaction: "😏"
+  reaction: "🇹🇿"
 },
 async (origineMessage, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
