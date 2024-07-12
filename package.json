@@ -17,7 +17,7 @@
     "whatsapp-bot",
     "Faouz995"
   ],
-  "author": "Beltah Tech Team",
+  "author": "joel Tech Team",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
