@@ -35,23 +35,20 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 *${s.BOT} AVAILABLE MENUS* 
-╭─────────────────✣
-│❒⁠⁠⁠⁠╭─────────────✣
-│❒⁠⁠⁠⁠│▸ *MENU1* 
-│❒⁠⁠⁠⁠│▸ *MENU2* 
-│❒⁠⁠⁠⁠│▸ *MENU3*
-│❒⁠⁠⁠⁠╰──────────────✇
-│❒⁠⁠⁠⁠│▸ *PLUGINS* : ${cm.length} 
-│❒⁠⁠⁠⁠│▸ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒⁠⁠⁠⁠│▸ *SAVER* : ${os.platform()}
-│❒⁠⁠⁠⁠│▸ *THEME* : *BELTAH KE*
-│❒⁠⁠⁠⁠╰──────────────✇
-╰──────────────────✇
-> 𝐁𝐄𝐋𝐓𝐀𝐇-𝐌𝐃 𝐕𝟒.𝟎.𝟎 𝐋𝐀𝐓𝐄𝐒𝐓
-> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐁𝐄𝐋𝐓𝐀𝐇 𝐓𝐄𝐂𝐇\n${readmore}`;
+
+     *MENU1* 
+     *MENU2* 
+     *MENU3*
+     *PLUGINS* : ${cm.length} 
+     *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+     *SAVER* : ${os.platform()}
+     *theme* : *joel_it🕸️🕷️*
+
+> BEST CODER MD 
+> powered by joel tech \n${readmore}`;
     
 let menuMsg = `
-> Hello ${nomAuteurMessage},,, Type menu1,menu2 or menu3 to access a list of commands. 
+> Hello ${nomAuteurMessage},,, Type menu1,menu2 or menu3 to access a best best coder md list of commands. 
   
 ╰───────────────────⏣`;
 
@@ -59,7 +56,7 @@ let menuMsg = `
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Beltah Tech" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *joel_it🕷️🕸️*, joel_it🕸️🕷️" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -69,7 +66,7 @@ let menuMsg = `
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Beltah Tech" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *best coder md*, déveloper joel tech" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
