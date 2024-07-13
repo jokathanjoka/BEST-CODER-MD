@@ -14,7 +14,7 @@ const{repondre,ms,dev,superUser}=com;
 
   if(!superUser)
   {
-    return repondre("This command is for owner only");
+    return repondre("shit your not my owner🤭");
   }
 
   const {exec}=require("child_process")
