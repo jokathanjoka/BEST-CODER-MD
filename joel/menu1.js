@@ -34,22 +34,15 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-*${s.BOT} AVAILABLE MENUS* 
-
-     *MENU1* 
-     *MENU2* 
-     *MENU3*
+*${s.BOT} AVAILABLE MENU* 
+     
      *PLUGINS* : ${cm.length} 
      *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
      *SAVER* : ${os.platform()}
      *theme* : *joel_it🕸️🕷️*
-
-> BEST CODER MD 
-> powered by joel tech \n${readmore}`;
-    
-let menuMsg = `
-> Hello ${nomAuteurMessage},,, Type menu1,menu2 or menu3 to access a best best coder md list of commands. 
-  
+*developer* : *joel _it🕸️🕸️🕷️
+ type menu1,menu2,menu3 to open bot menus
+ > powered by joel tech
 ╰───────────────────⏣`;
 
    var lien = mybotpic();
