@@ -34,26 +34,25 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────《《 ${s.BOT} 》》────⬡
-┴  ╭─────────────⬡
-│❒│ *ADMIN* : ${s.OWNER_NAME}
-│❒│ *COMMANDER* : ${nomAuteurMessage} 
-│❒╰──────────────✇
-│❒│⁠⁠⁠⁠ *CALENDER* : ${date}
-│❒│⁠⁠⁠⁠ *PREFIX* : ${s.PREFIXE}
-│❒⁠⁠⁠⁠│⁠⁠⁠ *BOT IS IN* : ${mode} mode
-│❒│⁠⁠⁠⁠ *ORDERS* : ${cm.length} 
-│❒│⁠⁠⁠⁠ *SPACE* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒│⁠⁠⁠⁠ *CHROME* : ${os.platform()}
-│❒│⁠⁠⁠⁠ *THEME* : *BELTAH KE*
-┬  ╰──────────────⬡
-╰─── ···▸ *💰LIKE A BOSS💰* ··──⬡
+             BEST CODER MD 
+             
+     *admin* : ${s.OWNER_NAME}
+     *commander* : ${nomAuteurMessage} 
+     *fate* : ${date}
+     *starter* : ${s.PREFIXE}
+    ⁠⁠⁠ *mode* : ${mode} mode
+     *orders* : ${cm.length} 
+     *space* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+    *foxbrowser* : ${os.platform()}
+    *theme* : *joel_it*
 
-> 𝐁𝐄𝐋𝐓𝐀𝐇-𝐌𝐃 𝐕𝟒.𝟎.𝟎 𝐋𝐀𝐓𝐄𝐒𝐓
-> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐁𝐄𝐋𝐓𝐀𝐇 𝐓𝐄𝐂𝐇\n${readmore}`;
+╰─── ···▸ *JOEL TECH* ··──⬡
+
+> BEST CODER MD 
+> POWERED BY JOEL KANG'OMA \n${readmore}`;
     
 let menuMsg = `
-*BELTAH-MD COMMANDS*${readmore}
+*BEST CODER-MD COMMANDS*${readmore}
 `;
 
     for (const cat in coms) {
@@ -67,8 +66,8 @@ let menuMsg = `
     }
     menuMsg += `
 ╭─────────────⬡
-> |⏣THANK YOU FOR CHOOSING 
-> 𝐁𝐄𝐋𝐓𝐀𝐇-𝐌𝐃 𝐕𝟒.𝟎.𝟎 𝐋𝐀𝐓𝐄𝐒𝐓
+> |THANK YOU FOR CHOOSING 
+> BEST CODER MD 
 ╰──────────────✇
 `;
 
@@ -76,7 +75,7 @@ let menuMsg = `
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Beltah Tech" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *best coder md*, déveloper joel Tech" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -86,7 +85,7 @@ let menuMsg = `
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Beltah Tech" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *best coder md*, déveloper joel Tech" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
