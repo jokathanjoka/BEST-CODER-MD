@@ -29,10 +29,10 @@ function _0x5403() {
         'etDUb',
         'forks_coun',
         '__________',
-        '35660aHjob',
-        'i.gihub.c',
+        '35660asHjob',
+        'i.github.c',
         'defineProp',
-        'JOEK\x20𝐓𝐄𝐂',
+        '𝐁𝐄𝐋𝐓𝐀𝐇\x20𝐓𝐄𝐂',
         'https://ap',
         'SIT\x20FOR\x20TU',
         '\x20REPOSITO',
@@ -77,7 +77,7 @@ function _0x5403() {
         'om/repos/B',
         'dee6cc7597',
         'en-GB',
-        'm/@jokathanjoma',
+        'm/@Beltaht',
         '1375650kPEVMp',
         'https://te',
         '_count',
@@ -111,7 +111,7 @@ function _0x5403() {
         'tah\x20tech◆',
         'updated_at',
         '_______\x0a\x20◆',
-        'AM\x20joel tech-',
+        'AM\x20Beltah-',
         '\x20🐲Hello,I\x20'
     ];
     _0x5403 = function () {
