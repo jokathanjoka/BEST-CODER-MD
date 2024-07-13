@@ -37,6 +37,12 @@
       "description":"put A name for your bot",
       "value":"BEST CODER MD",
       "required":false
+	          
+    },
+    "READ_MESSAGE": {
+      "description": "Fill the value true if you want bot to read all messages that is auto blue ticks.",
+      "required" :true,
+      "value": "false"
 
     } ,
      "BOT_MENU_LINKS" : {
