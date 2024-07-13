@@ -57,7 +57,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 ║    Heure : ${temps}
 ║    Mémoire : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ║    Plateforme : ${os.platform()}
-║    Développeurs : Djalega++||Luffy
+║    Développeurs : joel_tech🕸️🕷️++||Luffy
 ╚════--------------- \n\n`;
     for (const cat in coms) {
         if (!emoji[cat]) {
