@@ -34,22 +34,19 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────《《  ${s.BOT} 》》─────✣
-│☹︎╭─────────────✣
-│☹︎│▸ *BOT-OWNER* : ${s.OWNER_NAME}
-│☹︎│▸ *COMMANDER* : ${nomAuteurMessage} 
-│☹︎╰──────────────✇
-│☹︎│▸ *TODAY* : ${date}
-│☹︎│▸ *PREFIX* : ${s.PREFIXE}
-│☹︎│▸ *WORKTYPE* : ${mode} mode
-│☹︎│▸ *PLUGINS* : ${cm.length} 
-│☹︎│▸ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│☹︎│▸ *RUNNING ON* : ${os.platform()}
-│☹︎│▸ *THEME* : *BELTAH KE*
-│☹︎╰──────────────✇
-╰──────────────────✇
-> 𝐁𝐄𝐋𝐓𝐀𝐇-𝐌𝐃 𝐕𝟒.𝟎.𝟎 𝐋𝐀𝐓𝐄𝐒𝐓
-> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐁𝐄𝐋𝐓𝐀𝐇 𝐓𝐄𝐂𝐇\n${readmore}`;
+          BEST CODER MD 
+    ▸ *BOT-OWNER* : ${s.OWNER_NAME}
+    ▸ *COMMANDER* : ${nomAuteurMessage} 
+
+    ▸ *today* : ${date}
+     *prefix* : ${s.PREFIXE}
+    ▸ *mode* : ${mode} mode
+    ▸ *commands* : ${cm.length} 
+    ▸ *storage* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+    ▸ *running time* : ${os.platform()}
+    ▸ *theme* : *joel_tech*
+>🇹🇿🇹🇿🇹🇿🇹🇿🇹🇿🇹🇿🇹🇿🇹🇿🇹🇿🇹🇿🇹🇿🇹🇿🇹🇿🇹🇿🇹🇿🇹🇿🇹🇿
+>powered by joel kang'oma \n${readmore}`;
     
 let menuMsg = `
 
@@ -66,14 +63,14 @@ let menuMsg = `
 ╰────────────···▸▸ \n`
     }
 
-    menuMsg += `> 𝐁𝐄𝐋𝐓𝐀𝐇-𝐌𝐃 𝐕𝟒.𝟎.𝟎 𝐋𝐀𝐓𝐄𝐒𝐓
+    menuMsg += `> BEST CODER MD 🇹🇿
 `;
 
    var lien = mybotpic();
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Beltah Tech" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *best coder md*, déveloper joel it" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
